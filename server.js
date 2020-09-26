@@ -34,8 +34,7 @@ const { createBanque, getBanques, deleteBanque } = require("./handlers/banque");
 const { createAd, getAds, getAd, deleteAd } = require("./handlers/ad");
 
 const auth = require("./utils/auth");
-const admin = require("./utils/admin");
-
+const admin = require("./utils/admin")
 //middlewares
 //app.use(helmet());
 app.use(cors());
