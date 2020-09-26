@@ -3,7 +3,6 @@ const app = express();
 const helmet = require("helmet");
 const cors = require("cors");
 const mongoose = require("mongoose");
-//const db = require("./config/db");
 require("dotenv").config();
 const path = require("path");
 const { signup, login, getUsers, getAuthUser, updateUserDetails } = require("./handlers/user");
