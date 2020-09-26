@@ -99,7 +99,6 @@ app
 
 app.post("/upload", uploader);
 app.use(express.static(path.join(__dirname, 'build')))
-app.use(express.static(path.join(__dirname, 'build/static')))
 
 app.use("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
