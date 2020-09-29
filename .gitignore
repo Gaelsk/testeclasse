@@ -1,5 +1,5 @@
 node_modules
 config
-/client
+/client/node_modules
 /uploads
 .env
